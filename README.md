@@ -27,3 +27,9 @@ See the tag names and description below.
 | v5       | Snapshot testing                                     | TBD                              |
 
 **NOTICE:** To checkout a tag, use the command `git checkout <tag name>` (eg. `git checkout v1`).
+
+Mike's note:
+
+### expect
+
+`expect(component.id.startsWith('check-')).toBe(true);`

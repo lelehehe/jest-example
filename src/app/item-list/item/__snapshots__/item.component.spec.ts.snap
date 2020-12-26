@@ -26,7 +26,7 @@ exports[`ItemComponent snapshot of markup should match the markup for a item 1`]
       </span>
     </div>
     <button
-      class="delete"
+      class="delete test"
     >
       <fa-icon
         icon="trash"

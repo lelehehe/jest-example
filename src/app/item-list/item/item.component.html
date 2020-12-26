@@ -15,12 +15,13 @@
     </button>
   </ng-container>
 
+
   <!-- Read-only-mode -->
   <ng-template #readOnly>
     <div class="label-container" (click)="toggleMode()">
       <span class="label" [ngClass]="{striked: completed}">{{item.task}}</span>
     </div>
-    <button class="delete" (click)="delete.emit(item)">
+    <button class="delete test" (click)="delete.emit(item)">
       <fa-icon icon="trash"></fa-icon>
     </button>
   </ng-template>
